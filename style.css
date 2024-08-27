@@ -184,3 +184,28 @@ a {
   line-height: 32px;
   color: var(--main--text);
 }
+
+
+/* Sponsors Section styles */
+
+
+.sponsors__section{
+    background-color: #F3D1BF;
+    height: 230px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.sponsors__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 146px;
+}
+
+.sponsors__horizontal-line{
+    color: #F3D1BF;
+    margin-top: 72px;
+}
