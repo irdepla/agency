@@ -463,13 +463,64 @@ a {
   margin-top: 28px;
 }
 
-
 /* Features section styles */
 
-
-.features__section{
-
+.features__section {
+  background-color: var(--main--bg);
+  padding-top: 191px;
 }
+
+.features__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features__subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: var(--main--subtitle);
+  text-transform: uppercase;
+}
+
+.features__title {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: var(--important--text);
+}
+
+.features__about {
+  margin-top: 26px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--descryption--text);
+}
+
+.features__to-do__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+
+.features__skills::before{
+  content: url(./images/checkcircle.svg);
+  margin-right: 16px;
+  
+}
+
+
+
+/* More features section styles */
 
 
 @media (max-width: 571px) {
