@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style/main.css">
   </head>
   <body>
     <nav class="navbar">
@@ -98,7 +99,7 @@
             <img src="./images/vortex.svg" alt="sponsor logo" />
             <img src="./images/travel.svg" alt="sponsor logo" />
             <img src="./images/fuzion.svg" alt="sponsor logo" />
-            <img src="./images/media.svg" alt="sponsor logo" />
+            <img src="./images/media.svg" alt="sponsor logo" class="last__child"/>
           </div>
           <hr class="sponsors__horizontal-line" />
         </div>
@@ -213,11 +214,13 @@
               business understanding.
             </p>
             <div class="features__to-do__list">
-              <span class="features__skills">
-                Range including technical skills
-              </span>
-              <span class="features__skills"> Business understanding </span>
-              <span class="features__skills"> Partner on the long run </span>
+              <ul class="features__list">
+                <li class="features__skills">
+                    Range including technical skills
+                </li>
+                  <li class="features__skills"> Business understanding </li>
+                  <li class="features__skills"> Partner on the long run </li>
+              </ul>
             </div>
           </div>
           <div class="features__img">
@@ -255,6 +258,42 @@
                 </p>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="services__section">
+        <div class="container services__wrapper">
+            <div class="services__main__img">
+                <img src="./images/services pic.png" alt="services img">
+            </div>
+            <div class="services__info">
+                <span class="services__subtitle">
+                    Service
+                </span>
+                <h2 class="services__title">
+                    Making Complex Digital Products
+                </h2>
+                <p class="services__desc">
+                    Agency provides a full service range including <br>
+                    technical skills, design, business.
+                </p>
+                <div class="services__comment">
+                    <div class="services__comment__img">
+                        <img src="./images/jenny murtaugh.png" alt="jenny murtaugh">
+                    </div>
+                    <div class="services__comment__info">
+                        <span class="services__slogan">
+                            "Understanding, ability to put themselves in the <br>
+                            merchant's shoes. It is meant to partner."
+                        </span>
+                        <p class="servicves__comment__name">
+                            Jenny Murtaugh
+                        </p>
+                    </div>
+                </div>
+                <button class="services__btn universal__btn">
+                    Explore
+                </button>
+            </div>
         </div>
       </section>
     </main>
