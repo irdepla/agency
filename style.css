@@ -762,6 +762,12 @@ a {
   }
 
 
+
+  .hero__img{
+    width: 100%;
+  }
+
+
   .hero__title{
     font-size: 56px;
     font-weight: 800;
@@ -799,9 +805,29 @@ a {
   }
 
 
-  .last__child{
+  .sponsors__last__img{
     display: block;
     margin-left: 60%;
   }
 
+
+  /* Experience section styles */
+
+  .experience__section{
+    margin-top: -16px;
+  }
+
+
+  .experience__wrapper{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+
+  .experience__img{
+    width: fit-content;
+    display: block;
+    margin: auto;
+  }
 }
