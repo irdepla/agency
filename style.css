@@ -972,13 +972,116 @@ a {
   line-height: 14.35px;
   color: var(--main--text);
   background-color: transparent;
+  transition: 0.8s;
 }
 
+.portfolio__btn:hover::after{
+  content: "🔍";
+}
+
+.portfolio__btn:hover {
+  background-color: aqua;
+  transition: 1s;
+  border: none;
+  transform: scale(1.2);
+}
 
 /* Get started section styles */
 
+.get-started__section {
+  padding-top: 402px;
+  background-color: var(--hero--bg);
+}
 
+.get-started__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: px;
+  background-color: #fdf0e9;
+  border-radius: 6px;
+}
 
+.get-started__info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.get-started__img {
+  margin-top: 100px;
+  margin-left: -150px;
+}
+
+.get-started__info_img {
+  position: absolute;
+  top: -175px;
+}
+
+.get-started__info_img:hover {
+  transition: all 1s ease-in-out;
+  transform: rotate(360deg);
+}
+
+.get-started__subtitle {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--main--subtitle);
+}
+
+.get-started__title {
+  margin-top: 13px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--important--text);
+}
+
+.get-started__btn {
+  margin-top: 23px;
+  background-color: #ef6d58;
+  border-radius: 6px;
+  color: var(--main--text);
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14.35px;
+  padding: 18px 32px 16px 31px;
+  transition: all 0.7s ease-in-out;
+}
+
+.get-started__btn:hover {
+  background-color: #fff;
+  color: red;
+  border: 1px solid red;
+  transition: all 1s ease-in-out;
+}
+
+.get-started__btn:hover::after {
+  content: "📞";
+}
+
+.get-started__women__img {
+  position: relative;
+}
+
+.get-started__womenn__img {
+  z-index: 6;
+  position: absolute;
+  margin-right: 83px;
+  left: -150px;
+  top: -220px;
+}
+
+.get-started__path__img {
+  z-index: 4;
+  position: absolute;
+  right: -80px;
+  top: -110px;
+}
 
 @media (max-width: 571px) {
   .navbar__list,
